@@ -318,7 +318,13 @@ function Hero() {
 
           {/* Right Side: Logo GIF / Backgroundless Image */}
           <div className="reveal hidden lg:flex justify-center items-center lg:col-span-5 pointer-events-none select-none">
-            
+            <img
+              src={logoImg} // Replace this with your company logo/GIF import variable
+              alt="Neetu's Salon Logo"
+              className="w-full max-w-[320px] xl:max-w-[400px] h-auto object-contain mix-blend-screen opacity-90 drop-shadow-[0_0_30px_rgba(212,175,55,0.2)]"
+              width={400}
+              height={400}
+            />
           </div>
 
         </div>
