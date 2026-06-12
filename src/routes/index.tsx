@@ -8,16 +8,16 @@ import { useReveal } from "@/hooks/use-reveal";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Color & Craft Salon & Makeup — Luxury Beauty Studio in Shirpur" },
+      { title: "Neetu's Salon & Makeup — Luxury Beauty Studio in Mumbai" },
       {
         name: "description",
         content:
-          "Color & Craft by Vijay — Shirpur's premier luxury salon & makeup studio. Hair, skin, bridal makeup, and alchemy treatments crafted with artistry.",
+          "Neetu's Salon — Mumbai's premier luxury salon & makeup studio. Hair, skin, bridal makeup, and alchemy treatments crafted with artistry.",
       },
-      { property: "og:title", content: "Color & Craft Salon & Makeup" },
+      { property: "og:title", content: "Neetu's Salon & Makeup" },
       {
         property: "og:description",
-        content: "Luxury hair, beauty & bridal studio in Shirpur. Crafting beauty and color.",
+        content: "Luxury hair, beauty & bridal studio in Mumbai. Crafting beauty and colour.",
       },
       { property: "og:url", content: "/" },
     ],
@@ -116,7 +116,7 @@ const SERVICE_TABS = [
 const TESTIMONIALS = [
   {
     name: "Priya S.",
-    role: "Bride, Shirpur",
+    role: "Bride, Mumbai",
     quote:
       "My bridal trial felt like an art studio session. Every detail — skin, hair, drape — was perfection. I felt like the most luxurious version of myself.",
   },
@@ -124,7 +124,7 @@ const TESTIMONIALS = [
     name: "Anjali R.",
     role: "Regular client",
     quote:
-      "I drive 40 km for my color appointments here. Vijay's team simply understands tone, texture and aftercare like nobody else in the region.",
+      "I drive 40 km for my color appointments here. The team simply understands tone, texture and aftercare like nobody else in the region.",
   },
   {
     name: "Meera K.",
@@ -194,12 +194,12 @@ function Nav() {
             className="grid place-items-center h-10 w-10 rounded-full font-display text-lg"
             style={{ background: "var(--gradient-gold)", color: "oklch(0.15 0.01 60)" }}
           >
-            C
+            N
           </span>
           <span className="leading-tight">
-            <span className="block font-display text-base md:text-lg">Color & Craft</span>
+            <span className="block font-display text-base md:text-lg">Neetu's Salon</span>
             <span className="block text-[10px] tracking-[0.32em] uppercase text-muted-foreground">
-              by Vijay
+              Hair · Beauty · Makeup
             </span>
           </span>
         </a>
@@ -282,7 +282,7 @@ function Hero() {
           {/* Left Side: Content */}
           <div className="max-w-3xl lg:col-span-7">
             <span className="eyebrow reveal" style={{ color: "var(--color-gold-light)" }}>
-              Shirpur · Est. Luxury Salon
+              Mumbai · Est. Luxury Salon
             </span>
             <h1 className="reveal mt-6 font-display text-[44px] sm:text-6xl lg:text-7xl leading-[1.02] font-medium">
               Crafting beauty,
@@ -290,7 +290,7 @@ function Hero() {
               <span className="italic text-gradient-gold">colour & confidence.</span>
             </h1>
             <p className="reveal mt-6 text-base md:text-lg  max-w-xl leading-relaxed">
-              Color & Craft by Vijay is a luxury hair, skin & bridal studio where every appointment is
+              Neetu's Salon is a luxury hair, skin & bridal studio where every appointment is
               treated as a private atelier session — bespoke, unhurried, unforgettable.
             </p>
             <div className="reveal mt-10 flex flex-wrap items-center gap-4">
@@ -318,13 +318,7 @@ function Hero() {
 
           {/* Right Side: Logo GIF / Backgroundless Image */}
           <div className="reveal hidden lg:flex justify-center items-center lg:col-span-5 pointer-events-none select-none">
-            <img
-              src={logoImg} // Replace this with your company logo/GIF import variable
-              alt="Color & Craft Salon Logo"
-              className="w-full max-w-[320px] xl:max-w-[400px] h-auto object-contain mix-blend-screen opacity-90 drop-shadow-[0_0_30px_rgba(212,175,55,0.2)]"
-              width={400}
-              height={400}
-            />
+            
           </div>
 
         </div>
@@ -377,7 +371,7 @@ function About() {
           <div className="relative rounded-[2rem] overflow-hidden border border-[var(--color-gold)]/30">
             <img
               src={heroImg}
-              alt="Color & Craft atelier"
+              alt="Neetu's Salon atelier"
               loading="lazy"
               className="w-full h-[520px] object-cover"
             />
@@ -387,7 +381,7 @@ function About() {
             >
               <div className="font-display text-xl">"Beauty is craft, not coincidence."</div>
               <div className="text-xs uppercase tracking-[0.25em] text-muted-foreground mt-2">
-                — Vijay, Founder & Lead Stylist
+                — Neetu, Founder & Lead Stylist
               </div>
             </div>
           </div>
@@ -562,23 +556,23 @@ function Location() {
         <div className="flex flex-col justify-center">
           <span className="eyebrow reveal">Visit The Studio</span>
           <h2 className="reveal mt-5 font-display text-4xl md:text-5xl leading-tight">
-            Find us in the heart of <span className="italic text-gradient-gold">Shirpur.</span>
+            Find us in the heart of <span className="italic text-gradient-gold">Bandra.</span>
           </h2>
           <div className="gold-divider my-8 reveal" />
           <div className="reveal space-y-4 text-foreground/85">
-            <p className="font-display text-xl">Color & Craft by Vijay</p>
+            <p className="font-display text-xl">Neetu's Salon</p>
             <p className="text-muted-foreground leading-relaxed">
-              9V5H+5FX Tejas Plaza, 8, Shirpur, Nimzari Naka,
+              24, Rosewood Arcade, MG Road,
               <br />
-              Sandipani Colony, Shahada Road,
+              Bandra West,
               <br />
-              Shirpur-Warwade, Maharashtra 425405
+              Mumbai, Maharashtra 400050
             </p>
             <div className="pt-2 space-y-1.5 text-sm">
               <div>
                 <span className="text-muted-foreground">Phone — </span>
-                <a href="tel:+919011003040" className="hover:text-[var(--color-gold)]">
-                  +91 90110 03040
+                <a href="tel:+919823456789" className="hover:text-[var(--color-gold)]">
+                  +91 98234 56789
                 </a>
               </div>
               <div>
@@ -590,7 +584,7 @@ function Location() {
 
           <div className="reveal mt-8 flex flex-wrap gap-3">
             <a
-              href="https://wa.me/919011003040"
+              href="https://wa.me/919823456789"
               target="_blank"
               rel="noreferrer"
               className="btn-gold"
@@ -598,7 +592,7 @@ function Location() {
               WhatsApp Us
             </a>
             <a
-              href="https://maps.app.goo.gl/VoXqYfz7xiDGGenD6"
+              href="https://www.google.com/maps/search/24+Rosewood+Arcade+MG+Road+Bandra+West+Mumbai"
               target="_blank"
               rel="noreferrer"
               className="btn-ghost-gold"
@@ -610,8 +604,8 @@ function Location() {
 
         <div className="reveal rounded-3xl overflow-hidden border border-border shadow-[var(--shadow-elegant)] min-h-[420px]">
           <iframe
-            title="Color & Craft Salon location"
-            src="https://www.google.com/maps?q=Color+%26+Craft+Salon+%26+Makeup%2C+Shop+8%2C+Tejas+Plaza%2C+Nimzari+Naka%2C+Shirpur%2C+Maharashtra+425405&output=embed"
+            title="Neetu's Salon location"
+            src="https://www.google.com/maps?q=24+Rosewood+Arcade%2C+MG+Road%2C+Bandra+West%2C+Mumbai%2C+Maharashtra+400050&output=embed"
             className="w-full h-full min-h-[420px]"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
@@ -631,7 +625,7 @@ function Contact() {
   const onSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const msg = `Hi! I'd like to book a ${form.service} appointment.%0AName: ${form.name}%0APhone: ${form.phone}`;
-    window.open(`https://wa.me/919011003040?text=${msg}`, "_blank");
+    window.open(`https://wa.me/919823456789?text=${msg}`, "_blank");
     setSent(true);
   };
 
@@ -725,17 +719,17 @@ function Footer() {
               className="grid place-items-center h-10 w-10 rounded-full font-display"
               style={{ background: "var(--gradient-gold)", color: "oklch(0.15 0.01 60)" }}
             >
-              C
+              N
             </span>
             <div>
-              <div className="font-display text-lg">Color & Craft</div>
+              <div className="font-display text-lg">Neetu's Salon</div>
               <div className="text-[10px] tracking-[0.32em] uppercase text-muted-foreground">
-                by Vijay · Hair · Beauty · Makeup
+                Hair · Beauty · Makeup
               </div>
             </div>
           </div>
           <p className="mt-5 text-sm text-muted-foreground max-w-xs">
-            Shirpur's luxury salon & makeup atelier. Crafting beauty, colour & confidence since
+            Mumbai's luxury salon & makeup atelier. Crafting beauty, colour & confidence since
             day one.
           </p>
         </div>
@@ -743,11 +737,11 @@ function Footer() {
         <div>
           <div className="text-xs uppercase tracking-[0.25em] text-[var(--color-gold)]">Visit</div>
           <p className="mt-4 text-sm text-foreground/80 leading-relaxed">
-            8, Tejas Plaza, Nimzari Naka,
+            24, Rosewood Arcade, MG Road,
             <br />
-            Sandipani Colony, Shahada Road,
+            Bandra West,
             <br />
-            Shirpur-Warwade, Maharashtra 425405
+            Mumbai, Maharashtra 400050
           </p>
         </div>
 
@@ -756,11 +750,11 @@ function Footer() {
             Connect
           </div>
           <div className="mt-4 space-y-2 text-sm">
-            <a href="tel:+919011003040" className="block hover:text-[var(--color-gold)]">
-              +91 90110 03040
+            <a href="tel:+919823456789" className="block hover:text-[var(--color-gold)]">
+              +91 98234 56789
             </a>
             <a
-              href="https://wa.me/919011003040"
+              href="https://wa.me/919823456789"
               target="_blank"
               rel="noreferrer"
               className="block hover:text-[var(--color-gold)]"
@@ -788,8 +782,8 @@ function Footer() {
       </div>
 
       <div className="mx-auto max-w-7xl px-5 md:px-8 mt-12 pt-6 border-t border-border flex flex-col sm:flex-row justify-between gap-3 text-xs text-muted-foreground">
-        <div>© {new Date().getFullYear()} Color & Craft by Vijay. All rights reserved.</div>
-        <div>Crafted with care in Shirpur, By - Antara Chitte.</div>
+        <div>© {new Date().getFullYear()} Neetu's Salon. All rights reserved.</div>
+        <div>Crafted with care in Mumbai, By - Antara Chitte.</div>
       </div>
     </footer>
   );
